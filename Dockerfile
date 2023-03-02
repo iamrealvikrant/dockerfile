@@ -7,7 +7,7 @@ WORKDIR /usr/local/tomcat
 # Expose port 8080
 EXPOSE 8080
 
-# Running a tomcat
+# copying gameofwar
 COPY gameoflife.war webapps/
 
 # Start Tomcat when the container launches
